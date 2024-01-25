@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.AreaVidas{
+   
+    padding:2px;
+    display:flex;
+    gap:20%;
+    align-items: center;
+} 
+
+.jogador1,
+.jogador2 {
+    flex: 1;
+}
+
+.barraVida {
+
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    height: 5px;
+    
+   
+}
+
+#HP1,
+#HP2 {
+ font-size: 13px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#vidaJ1,
+#vidaJ2 {
+        border:1px solid red;
+        background-color: red;
+        border-radius: 5px;
+        height: inherit;
+        width: 20px;
+
+}
+
+p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    left:35%;
+}
+
+.log{
+  
+    border: 1px dotted grey;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    gap: 20px;
+    background-image: url('images/5.PNG');
+    
+}
+.imagemguerreiro,.imagensoponentes{
+    display: inline-block;
+    
+    
+}
+
+.imagens{
+    display: flex;
+    position: relative;
+    top:5vh;
+    left:27vw;
+    gap:5%;
+}
+h1{
+    font-size: 50px;
+    position: relative;
+    top:8vh
+}
